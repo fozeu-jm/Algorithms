@@ -1,11 +1,12 @@
 package algorithms;
 
+import algorithms.general.AbsolutePath;
 import algorithms.general.FibonacciSeries;
 import algorithms.general.SmallestInterval;
 
 public class AlgorithmApp {
     public static void main(String[] args) {
-        new FibonacciSeries().print(10);
+        new AbsolutePath().execute("/visasecure/src/../test/");
     }
 }
 

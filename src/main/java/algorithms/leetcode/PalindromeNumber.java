@@ -33,9 +33,9 @@ public class PalindromeNumber {
         int reversed = 0;
         while(x != 0){
             //get last digit of x
-            int digit = x % 10;
-            reversed = (reversed * 10) + digit;
-            //remove last digit
+            int lastDigit = x % 10;
+            reversed = (reversed * 10) + lastDigit;
+            //remove last Lastdigit
             x = x/10;
         }
         return initial == reversed;

@@ -11,6 +11,7 @@ public class RunLengthEncoding {
         StringBuilder result = new StringBuilder();
         StringBuilder buffer = new StringBuilder("");
         for (int i = 0; i < txt.length(); i++) {
+            //if buffer is empty
             if ("".equals(buffer.toString())) {
                 buffer.append(txt.charAt(i));
             } else {
